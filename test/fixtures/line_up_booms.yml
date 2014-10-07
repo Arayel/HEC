@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  DjName: MyText
+  SetTime: 2014-10-07
+  MusicStyle: MyText
+
+two:
+  DjName: MyText
+  SetTime: 2014-10-07
+  MusicStyle: MyText

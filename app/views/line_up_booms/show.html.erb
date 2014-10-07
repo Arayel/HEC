@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Djname:</strong>
+  <%= @line_up_boom.DjName %>
+</p>
+
+<p>
+  <strong>Settime:</strong>
+  <%= @line_up_boom.SetTime %>
+</p>
+
+<p>
+  <strong>Musicstyle:</strong>
+  <%= @line_up_boom.MusicStyle %>
+</p>
+
+<%= link_to 'Edit', edit_line_up_boom_path(@line_up_boom) %> |
+<%= link_to 'Back', line_up_booms_path %>

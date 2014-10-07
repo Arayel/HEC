@@ -1,0 +1,2 @@
+module LineUpBoomsHelper
+end

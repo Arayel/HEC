@@ -1,0 +1,29 @@
+<%= form_for(@line_up_boom) do |f| %>
+  <% if @line_up_boom.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@line_up_boom.errors.count, "error") %> prohibited this line_up_boom from being saved:</h2>
+
+      <ul>
+      <% @line_up_boom.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :DjName %><br>
+    <%= f.text_area :DjName %>
+  </div>
+  <div class="field">
+    <%= f.label :SetTime %><br>
+    <%= f.date_select :SetTime %>
+  </div>
+  <div class="field">
+    <%= f.label :MusicStyle %><br>
+    <%= f.text_area :MusicStyle %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
